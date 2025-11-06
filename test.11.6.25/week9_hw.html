@@ -1,0 +1,1197 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.33">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Sadie Dodds">
+<meta name="dcterms.date" content="2025-11-03">
+
+<title>Week 9 Homework</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script><script src="week9_homework_files/libs/clipboard/clipboard.min.js"></script>
+<script src="week9_homework_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="week9_homework_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="week9_homework_files/libs/quarto-html/popper.min.js"></script>
+<script src="week9_homework_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="week9_homework_files/libs/quarto-html/anchor.min.js"></script>
+<link href="week9_homework_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="week9_homework_files/libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="week9_homework_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="week9_homework_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="week9_homework_files/libs/bootstrap/bootstrap-81267100e462c21b3d6c0d5bf76a3417.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
+
+<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
+
+
+</head>
+
+<body class="fullcontent quarto-light">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Week 9 Homework</h1>
+</div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Sadie Dodds <a href="mailto:sadiedodds@gwu.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            George Washington University
+          </p>
+      </div>
+  </div>
+
+<div class="quarto-title-meta">
+
+      
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">November 3, 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="week-9-school-ranking-data" class="level1">
+<h1>Week 9 — School Ranking Data</h1>
+<section id="homework-for-week-9-of-dats-2102" class="level3">
+<h3 class="anchored" data-anchor-id="homework-for-week-9-of-dats-2102">Homework for Week 9 of DATS 2102</h3>
+<p><strong>Color &amp; Accessibility:</strong> Understanding color theory, palette selection, and accessibility best practices in data visualization.</p>
+<blockquote class="blockquote">
+<p><strong>Learning Goals:</strong></p>
+<ul>
+<li>Distinguish between sequential, diverging, and categorical color schemes.</li>
+<li>Select appropriate palettes based on data type and context.</li>
+<li>Apply color theory concepts (hue, saturation, luminance) to improve legibility.</li>
+<li>Use color tools to ensure accessibility for all users.</li>
+<li>Test visualizations for color blindness and accessibility compliance.</li>
+</ul>
+</blockquote>
+<section id="agenda" class="level4">
+<h4 class="anchored" data-anchor-id="agenda"><strong>Agenda:</strong></h4>
+<ol type="1">
+<li>Choose one of your visualizations from a previous week and redesign it to improve color and accessibility.</li>
+</ol>
+<p><strong>Include:</strong></p>
+<ol start="2" type="1">
+<li>One before-and-after comparison of color schemes.</li>
+<li>Discussion (150–250 words) of how your new design improves clarity and inclusivity.</li>
+<li>Verification of color accessibility (using simulator or contrast tool).</li>
+</ol>
+<p><strong>Finally:</strong></p>
+<ol start="5" type="1">
+<li>Submit .ipynb and .html.</li>
+</ol>
+</section>
+</section>
+<section id="choose-a-visualization" class="level2">
+<h2 class="anchored" data-anchor-id="choose-a-visualization">(1) Choose a visualization</h2>
+<p><strong>Task:</strong> Choose one of your visualizations from a previous week and redesign it to improve color and accessibility.</p>
+<section id="a-what-is-the-old-visualization" class="level4">
+<h4 class="anchored" data-anchor-id="a-what-is-the-old-visualization">(1a) What is the old visualization?</h4>
+<p>Looking at all states in 2018, this dataset is concerned with school rankings according to multiple different ranking systems. This dataset comes from <a href="https://www.socialexplorer.com/explore-tables">Social Explorer website</a> where it had been compiled from SchoolDigger.com.</p>
+<p>Previously, I compared middle school data through mapping. Now, I will use colors to look at this information, to improve the accessibility of the visualizations, and to answer these <strong>research questions</strong>:</p>
+<ul>
+<li>How do the middle school ranks change across the country?</li>
+<li>Do we see any regions with certain common ranks or related ranks?</li>
+<li>Are there any surprises in the middle school ranks of certain states?</li>
+</ul>
+</section>
+<section id="b-dataset" class="level4">
+<h4 class="anchored" data-anchor-id="b-dataset">(1b) Dataset</h4>
+<p><strong>Before I can create the old visualization here, I need to load and wrangle the old dataset.</strong></p>
+<p>First, I’ll install and import all necessary modules:</p>
+<div id="809938bd" class="cell" data-execution_count="2">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="op">%%</span>capture</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>pip install numpy</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<div id="d0a0d9a2-aab7-4b37-b760-150fa6fa9fcb" class="cell" data-tags="[]" data-execution_count="3">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="op">%%</span>capture</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>pip install <span class="op">-</span>U scikit<span class="op">-</span>learn</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<div id="d3cadcb3-643a-404d-bab0-a8dfe2b49d26" class="cell" data-tags="[]" data-execution_count="4">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="op">%%</span>capture</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>pip install pyarrow fastparquet</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<div id="6a4cb136-f121-4160-b813-f7874bd48f3b" class="cell" data-tags="[]">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> plotly.express <span class="im">as</span> px</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.ticker <span class="im">as</span> mtick</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> geopandas <span class="im">as</span> gpd</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> colorcet <span class="im">as</span> cc</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<p>Next, I’ll get the old dataset:</p>
+<div id="c32c2069" class="cell" data-execution_count="17">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="op">%%</span>capture</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> geopandas <span class="im">as</span> gpd</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>sns.<span class="bu">set</span>(style<span class="op">=</span><span class="st">"white"</span>)</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>plt.rcParams[<span class="st">'figure.figsize'</span>] <span class="op">=</span> (<span class="dv">7</span>,<span class="dv">4</span>)</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>raw <span class="op">=</span> pd.read_csv(<span class="st">"school.csv"</span>)</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>shapefile_path <span class="op">=</span> <span class="st">"map_20m.geojson"</span></span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>gdf <span class="op">=</span> gpd.read_file(shapefile_path)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<p>Now, I’ll recreate the data wrangling for this old dataset:</p>
+<div id="ad4a8169" class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>usa <span class="op">=</span> gdf.to_crs(<span class="st">"ESRI:102003"</span>)</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>cols_to_drop <span class="op">=</span> [<span class="st">"Geo_LEA"</span>, <span class="st">"Geo_SCHOOL"</span>, <span class="st">"SE_T001_001"</span>, <span class="st">"SE_T001_002"</span>, <span class="st">"SE_T001_004"</span>, <span class="st">"SE_T001_005"</span>, <span class="st">"SE_T001_007"</span>, <span class="st">"SE_T001_008"</span>]</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>dropped <span class="op">=</span> raw.drop(columns<span class="op">=</span>cols_to_drop, errors<span class="op">=</span><span class="st">"ignore"</span>)</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>school <span class="op">=</span> dropped.copy()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<div id="a64f8346" class="cell" data-execution_count="22">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>polys <span class="op">=</span> usa.copy()</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>g <span class="op">=</span> pd.merge(polys, raw, left_on<span class="op">=</span><span class="st">'NAME'</span>, right_on<span class="op">=</span><span class="st">'Geo_NAME'</span>, how<span class="op">=</span><span class="st">'left'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<p><strong>Finally, here is the dataset:</strong></p>
+<div id="1817b863" class="cell" data-execution_count="24">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>school.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-display">
+<div>
+
+
+<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">Geo_QNAME</th>
+<th data-quarto-table-cell-role="th">Geo_NAME</th>
+<th data-quarto-table-cell-role="th">Geo_FIPS</th>
+<th data-quarto-table-cell-role="th">Geo_NATION</th>
+<th data-quarto-table-cell-role="th">Geo_STATE</th>
+<th data-quarto-table-cell-role="th">SE_T001_003</th>
+<th data-quarto-table-cell-role="th">SE_T001_006</th>
+<th data-quarto-table-cell-role="th">SE_T001_009</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">0</td>
+<td>Alabama</td>
+<td>Alabama</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>2.509259</td>
+<td>216.5</td>
+<td>432</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">1</td>
+<td>Alaska</td>
+<td>Alaska</td>
+<td>2</td>
+<td>0</td>
+<td>2</td>
+<td>2.525253</td>
+<td>50.0</td>
+<td>99</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">2</td>
+<td>Arizona</td>
+<td>Arizona</td>
+<td>4</td>
+<td>0</td>
+<td>4</td>
+<td>2.500000</td>
+<td>300.5</td>
+<td>600</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">3</td>
+<td>Arkansas</td>
+<td>Arkansas</td>
+<td>5</td>
+<td>0</td>
+<td>5</td>
+<td>2.507837</td>
+<td>160.0</td>
+<td>319</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">4</td>
+<td>California</td>
+<td>California</td>
+<td>6</td>
+<td>0</td>
+<td>6</td>
+<td>2.502097</td>
+<td>1312.0</td>
+<td>2623</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+<p>And the variables:</p>
+<ul>
+<li><strong>Geo_QNAME:</strong> Qualifying Name</li>
+<li><strong>Geo_NAME:</strong> Name of Area</li>
+<li><strong>Geo_FIPS:</strong> FIPS</li>
+<li><strong>Geo_NATION:</strong> Nation</li>
+<li><strong>Geo_STATE:</strong> State</li>
+<li><strong>SE_T001_003:</strong> SchoolDigger Number of Stars Middle</li>
+<li><strong>SE_T001_006:</strong> SchoolDigger Rank Middle</li>
+<li><strong>SE_T001_009:</strong> SchoolDigger Rank Of Middle</li>
+</ul>
+</section>
+<section id="c-old-visualization" class="level4">
+<h4 class="anchored" data-anchor-id="c-old-visualization">(1c) Old Visualization</h4>
+<p>I will be recreating a static map which looks at SchoolDigger Number of Stars Middle.</p>
+</section>
+</section>
+<section id="compare-color-schemes" class="level2">
+<h2 class="anchored" data-anchor-id="compare-color-schemes">(2) Compare color schemes</h2>
+<p><strong>Task:</strong> One before-and-after comparison of color schemes.</p>
+<section id="a-old-visualization" class="level4">
+<h4 class="anchored" data-anchor-id="a-old-visualization">(2a) Old Visualization</h4>
+<div id="edfde606" class="cell" data-execution_count="23">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> geopandas <span class="im">as</span> gpd, pandas <span class="im">as</span> pd</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>ax <span class="op">=</span> g.plot(column<span class="op">=</span><span class="st">"SE_T001_003"</span>,</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>    cmap<span class="op">=</span><span class="st">"Blues"</span>,</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>    scheme<span class="op">=</span><span class="st">"Quantiles"</span>,</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>    k<span class="op">=</span><span class="dv">5</span>,</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>    legend<span class="op">=</span><span class="va">True</span>,</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>    legend_kwds<span class="op">=</span> <span class="bu">dict</span>(title<span class="op">=</span><span class="st">"Number of Stars Middle"</span>,loc<span class="op">=</span><span class="st">'upper left'</span>, bbox_to_anchor<span class="op">=</span>(<span class="fl">1.01</span>, <span class="dv">1</span>)),</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>    edgecolor<span class="op">=</span><span class="st">"black"</span>,</span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>    linewidth<span class="op">=</span><span class="fl">0.2</span>)</span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>ax.set_axis_off()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="week9_homework_files/figure-html/cell-10-output-1.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="b-new-visualization" class="level4">
+<h4 class="anchored" data-anchor-id="b-new-visualization">(2b) New Visualization</h4>
+<div id="3478ae20" class="cell" data-execution_count="26">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> geopandas <span class="im">as</span> gpd, pandas <span class="im">as</span> pd</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> colorcet <span class="im">as</span> cc</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>ax <span class="op">=</span> g.plot(column<span class="op">=</span><span class="st">"SE_T001_003"</span>,</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>    cmap<span class="op">=</span>cc.cm.CET_CBD2,</span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>    scheme<span class="op">=</span><span class="st">"Quantiles"</span>,</span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>    k<span class="op">=</span><span class="dv">5</span>,</span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>    legend<span class="op">=</span><span class="va">True</span>,</span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>    legend_kwds<span class="op">=</span> <span class="bu">dict</span>(title<span class="op">=</span><span class="st">"Number of Stars Middle"</span>,loc<span class="op">=</span><span class="st">'upper left'</span>, bbox_to_anchor<span class="op">=</span>(<span class="fl">1.01</span>, <span class="dv">1</span>)),</span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>    edgecolor<span class="op">=</span><span class="st">"black"</span>,</span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a>    linewidth<span class="op">=</span><span class="fl">0.2</span>)</span>
+<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a>ax.set_axis_off()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="week9_homework_files/figure-html/cell-11-output-1.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="discussion" class="level2">
+<h2 class="anchored" data-anchor-id="discussion">(3) Discussion</h2>
+<p><strong>Task:</strong> Discussion (150–250 words) of how your new design improves clarity and inclusivity.</p>
+<p>When deciding how I wanted to change the colors here I knew a couple things going in. For one, I liked the fact that blue was a relatively neutral color and so I wanted to continue using it and possibly another neutral color. I also knew that I didn’t want to use either a categorical color scheme (because the importance here is not the categories of star ranking but all the changes in between) or a diverging color scheme (as it was important to show the change between the two ends and not their difference from a center). So, I looked for a neutral colored ordered or sequential color schemed.</p>
+<p>Out of all the color schemes that fit these credentials, I landed on this color scheme for a few reasons. I liked the brightness of the blue and the yellow to both grab a viewer’s attention and implicitly create a feeling of happiness and not, say, fear for the viewer as they look at school systems being ranked. In the end, yellow also felt like the perfect amount of neutrality while when compared to blue it also reads as “happy” vs “sad” in a way that relates to the child-educating content of the data.</p>
+</section>
+<section id="verify-accessibility" class="level2">
+<h2 class="anchored" data-anchor-id="verify-accessibility">(4) Verify Accessibility</h2>
+<p><strong>Task:</strong> Verification of color accessibility (using simulator or contrast tool).</p>
+<div id="dafd9c61" class="cell" data-execution_count="33">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> hex_to_rgb(h):</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>    h <span class="op">=</span> h.lstrip(<span class="st">'#'</span>)</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="bu">tuple</span>(<span class="bu">int</span>(h[i:i<span class="op">+</span><span class="dv">2</span>], <span class="dv">16</span>) <span class="cf">for</span> i <span class="kw">in</span> (<span class="dv">0</span>, <span class="dv">2</span>, <span class="dv">4</span>))</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a><span class="cf">try</span>:</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>    hex_colors <span class="op">=</span> cc.palette[<span class="st">'CET_CBD2'</span>]           <span class="co"># list of '#RRGGBB'</span></span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>    palette <span class="op">=</span> [hex_to_rgb(hx) <span class="cf">for</span> hx <span class="kw">in</span> hex_colors]</span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a><span class="cf">except</span> <span class="pp">KeyError</span>:</span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a>    cmap <span class="op">=</span> cc.cm[<span class="st">'CET_CBD2'</span>]                      <span class="co"># matplotlib colormap, returns RGBA in 0..1</span></span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a>    N <span class="op">=</span> <span class="dv">12</span>                                        <span class="co"># choose how many samples you want</span></span>
+<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a>    palette <span class="op">=</span> [<span class="bu">tuple</span>(<span class="bu">int</span>(<span class="bu">round</span>(<span class="dv">255</span><span class="op">*</span>c)) <span class="cf">for</span> c <span class="kw">in</span> cmap(t)[:<span class="dv">3</span>]) <span class="cf">for</span> t <span class="kw">in</span> np.linspace(<span class="dv">0</span>, <span class="dv">1</span>, N)]</span>
+<span id="cb11-12"><a href="#cb11-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-13"><a href="#cb11-13" aria-hidden="true" tabindex="-1"></a>bg_white <span class="op">=</span> (<span class="dv">255</span>, <span class="dv">255</span>, <span class="dv">255</span>)  <span class="co"># white</span></span>
+<span id="cb11-14"><a href="#cb11-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-15"><a href="#cb11-15" aria-hidden="true" tabindex="-1"></a>bg_black <span class="op">=</span> (<span class="dv">20</span>, <span class="dv">20</span>, <span class="dv">20</span>)</span>
+<span id="cb11-16"><a href="#cb11-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-17"><a href="#cb11-17" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i, col <span class="kw">in</span> <span class="bu">enumerate</span>(palette):</span>
+<span id="cb11-18"><a href="#cb11-18" aria-hidden="true" tabindex="-1"></a>    cr_w, ok_w <span class="op">=</span> passes_wcag(col, bg_white, large<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb11-19"><a href="#cb11-19" aria-hidden="true" tabindex="-1"></a>    cr_b, ok_b <span class="op">=</span> passes_wcag(col, bg_black, large<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb11-20"><a href="#cb11-20" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">"Contrast ratio:"</span>, <span class="bu">round</span>(cr_w, <span class="dv">2</span>), <span class="st">"| Pass white text?"</span>, ok_w, <span class="st">"Contrast ratio:"</span>, <span class="bu">round</span>(cr_b, <span class="dv">2</span>), <span class="st">"| Pass black text?"</span>, ok_b)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>Contrast ratio: 3.54 | Pass white text? False Contrast ratio: 5.2 | Pass black text? True
+Contrast ratio: 3.5 | Pass white text? False Contrast ratio: 5.26 | Pass black text? True
+Contrast ratio: 3.5 | Pass white text? False Contrast ratio: 5.27 | Pass black text? True
+Contrast ratio: 3.49 | Pass white text? False Contrast ratio: 5.27 | Pass black text? True
+Contrast ratio: 3.45 | Pass white text? False Contrast ratio: 5.34 | Pass black text? True
+Contrast ratio: 3.45 | Pass white text? False Contrast ratio: 5.34 | Pass black text? True
+Contrast ratio: 3.44 | Pass white text? False Contrast ratio: 5.35 | Pass black text? True
+Contrast ratio: 3.44 | Pass white text? False Contrast ratio: 5.36 | Pass black text? True
+Contrast ratio: 3.41 | Pass white text? False Contrast ratio: 5.41 | Pass black text? True
+Contrast ratio: 3.4 | Pass white text? False Contrast ratio: 5.42 | Pass black text? True
+Contrast ratio: 3.39 | Pass white text? False Contrast ratio: 5.43 | Pass black text? True
+Contrast ratio: 3.35 | Pass white text? False Contrast ratio: 5.49 | Pass black text? True
+Contrast ratio: 3.35 | Pass white text? False Contrast ratio: 5.49 | Pass black text? True
+Contrast ratio: 3.34 | Pass white text? False Contrast ratio: 5.51 | Pass black text? True
+Contrast ratio: 3.31 | Pass white text? False Contrast ratio: 5.56 | Pass black text? True
+Contrast ratio: 3.3 | Pass white text? False Contrast ratio: 5.57 | Pass black text? True
+Contrast ratio: 3.3 | Pass white text? False Contrast ratio: 5.58 | Pass black text? True
+Contrast ratio: 3.3 | Pass white text? False Contrast ratio: 5.59 | Pass black text? True
+Contrast ratio: 3.26 | Pass white text? False Contrast ratio: 5.65 | Pass black text? True
+Contrast ratio: 3.26 | Pass white text? False Contrast ratio: 5.66 | Pass black text? True
+Contrast ratio: 3.25 | Pass white text? False Contrast ratio: 5.66 | Pass black text? True
+Contrast ratio: 3.22 | Pass white text? False Contrast ratio: 5.72 | Pass black text? True
+Contrast ratio: 3.21 | Pass white text? False Contrast ratio: 5.73 | Pass black text? True
+Contrast ratio: 3.21 | Pass white text? False Contrast ratio: 5.74 | Pass black text? True
+Contrast ratio: 3.18 | Pass white text? False Contrast ratio: 5.79 | Pass black text? True
+Contrast ratio: 3.17 | Pass white text? False Contrast ratio: 5.81 | Pass black text? True
+Contrast ratio: 3.17 | Pass white text? False Contrast ratio: 5.81 | Pass black text? True
+Contrast ratio: 3.14 | Pass white text? False Contrast ratio: 5.88 | Pass black text? True
+Contrast ratio: 3.13 | Pass white text? False Contrast ratio: 5.88 | Pass black text? True
+Contrast ratio: 3.13 | Pass white text? False Contrast ratio: 5.89 | Pass black text? True
+Contrast ratio: 3.09 | Pass white text? False Contrast ratio: 5.95 | Pass black text? True
+Contrast ratio: 3.09 | Pass white text? False Contrast ratio: 5.95 | Pass black text? True
+Contrast ratio: 3.08 | Pass white text? False Contrast ratio: 5.97 | Pass black text? True
+Contrast ratio: 3.08 | Pass white text? False Contrast ratio: 5.97 | Pass black text? True
+Contrast ratio: 3.05 | Pass white text? False Contrast ratio: 6.04 | Pass black text? True
+Contrast ratio: 3.05 | Pass white text? False Contrast ratio: 6.05 | Pass black text? True
+Contrast ratio: 3.04 | Pass white text? False Contrast ratio: 6.06 | Pass black text? True
+Contrast ratio: 3.01 | Pass white text? False Contrast ratio: 6.11 | Pass black text? True
+Contrast ratio: 3.01 | Pass white text? False Contrast ratio: 6.12 | Pass black text? True
+Contrast ratio: 3.0 | Pass white text? False Contrast ratio: 6.13 | Pass black text? True
+Contrast ratio: 2.98 | Pass white text? False Contrast ratio: 6.19 | Pass black text? True
+Contrast ratio: 2.97 | Pass white text? False Contrast ratio: 6.2 | Pass black text? True
+Contrast ratio: 2.97 | Pass white text? False Contrast ratio: 6.21 | Pass black text? True
+Contrast ratio: 2.93 | Pass white text? False Contrast ratio: 6.28 | Pass black text? True
+Contrast ratio: 2.93 | Pass white text? False Contrast ratio: 6.28 | Pass black text? True
+Contrast ratio: 2.93 | Pass white text? False Contrast ratio: 6.29 | Pass black text? True
+Contrast ratio: 2.9 | Pass white text? False Contrast ratio: 6.35 | Pass black text? True
+Contrast ratio: 2.9 | Pass white text? False Contrast ratio: 6.35 | Pass black text? True
+Contrast ratio: 2.89 | Pass white text? False Contrast ratio: 6.37 | Pass black text? True
+Contrast ratio: 2.86 | Pass white text? False Contrast ratio: 6.44 | Pass black text? True
+Contrast ratio: 2.86 | Pass white text? False Contrast ratio: 6.45 | Pass black text? True
+Contrast ratio: 2.86 | Pass white text? False Contrast ratio: 6.45 | Pass black text? True
+Contrast ratio: 2.82 | Pass white text? False Contrast ratio: 6.52 | Pass black text? True
+Contrast ratio: 2.82 | Pass white text? False Contrast ratio: 6.53 | Pass black text? True
+Contrast ratio: 2.82 | Pass white text? False Contrast ratio: 6.53 | Pass black text? True
+Contrast ratio: 2.79 | Pass white text? False Contrast ratio: 6.6 | Pass black text? True
+Contrast ratio: 2.79 | Pass white text? False Contrast ratio: 6.6 | Pass black text? True
+Contrast ratio: 2.78 | Pass white text? False Contrast ratio: 6.62 | Pass black text? True
+Contrast ratio: 2.76 | Pass white text? False Contrast ratio: 6.68 | Pass black text? True
+Contrast ratio: 2.75 | Pass white text? False Contrast ratio: 6.69 | Pass black text? True
+Contrast ratio: 2.75 | Pass white text? False Contrast ratio: 6.7 | Pass black text? True
+Contrast ratio: 2.72 | Pass white text? False Contrast ratio: 6.76 | Pass black text? True
+Contrast ratio: 2.72 | Pass white text? False Contrast ratio: 6.77 | Pass black text? True
+Contrast ratio: 2.72 | Pass white text? False Contrast ratio: 6.78 | Pass black text? True
+Contrast ratio: 2.69 | Pass white text? False Contrast ratio: 6.84 | Pass black text? True
+Contrast ratio: 2.69 | Pass white text? False Contrast ratio: 6.84 | Pass black text? True
+Contrast ratio: 2.69 | Pass white text? False Contrast ratio: 6.86 | Pass black text? True
+Contrast ratio: 2.66 | Pass white text? False Contrast ratio: 6.92 | Pass black text? True
+Contrast ratio: 2.66 | Pass white text? False Contrast ratio: 6.93 | Pass black text? True
+Contrast ratio: 2.65 | Pass white text? False Contrast ratio: 6.94 | Pass black text? True
+Contrast ratio: 2.63 | Pass white text? False Contrast ratio: 7.01 | Pass black text? True
+Contrast ratio: 2.62 | Pass white text? False Contrast ratio: 7.02 | Pass black text? True
+Contrast ratio: 2.62 | Pass white text? False Contrast ratio: 7.03 | Pass black text? True
+Contrast ratio: 2.6 | Pass white text? False Contrast ratio: 7.09 | Pass black text? True
+Contrast ratio: 2.6 | Pass white text? False Contrast ratio: 7.1 | Pass black text? True
+Contrast ratio: 2.59 | Pass white text? False Contrast ratio: 7.11 | Pass black text? True
+Contrast ratio: 2.57 | Pass white text? False Contrast ratio: 7.18 | Pass black text? True
+Contrast ratio: 2.56 | Pass white text? False Contrast ratio: 7.19 | Pass black text? True
+Contrast ratio: 2.56 | Pass white text? False Contrast ratio: 7.2 | Pass black text? True
+Contrast ratio: 2.54 | Pass white text? False Contrast ratio: 7.26 | Pass black text? True
+Contrast ratio: 2.54 | Pass white text? False Contrast ratio: 7.27 | Pass black text? True
+Contrast ratio: 2.53 | Pass white text? False Contrast ratio: 7.28 | Pass black text? True
+Contrast ratio: 2.51 | Pass white text? False Contrast ratio: 7.35 | Pass black text? True
+Contrast ratio: 2.5 | Pass white text? False Contrast ratio: 7.37 | Pass black text? True
+Contrast ratio: 2.5 | Pass white text? False Contrast ratio: 7.36 | Pass black text? True
+Contrast ratio: 2.48 | Pass white text? False Contrast ratio: 7.44 | Pass black text? True
+Contrast ratio: 2.47 | Pass white text? False Contrast ratio: 7.45 | Pass black text? True
+Contrast ratio: 2.47 | Pass white text? False Contrast ratio: 7.46 | Pass black text? True
+Contrast ratio: 2.45 | Pass white text? False Contrast ratio: 7.52 | Pass black text? True
+Contrast ratio: 2.45 | Pass white text? False Contrast ratio: 7.53 | Pass black text? True
+Contrast ratio: 2.44 | Pass white text? False Contrast ratio: 7.54 | Pass black text? True
+Contrast ratio: 2.42 | Pass white text? False Contrast ratio: 7.62 | Pass black text? True
+Contrast ratio: 2.42 | Pass white text? False Contrast ratio: 7.62 | Pass black text? True
+Contrast ratio: 2.42 | Pass white text? False Contrast ratio: 7.63 | Pass black text? True
+Contrast ratio: 2.39 | Pass white text? False Contrast ratio: 7.7 | Pass black text? True
+Contrast ratio: 2.39 | Pass white text? False Contrast ratio: 7.72 | Pass black text? True
+Contrast ratio: 2.39 | Pass white text? False Contrast ratio: 7.71 | Pass black text? True
+Contrast ratio: 2.36 | Pass white text? False Contrast ratio: 7.79 | Pass black text? True
+Contrast ratio: 2.36 | Pass white text? False Contrast ratio: 7.8 | Pass black text? True
+Contrast ratio: 2.34 | Pass white text? False Contrast ratio: 7.86 | Pass black text? True
+Contrast ratio: 2.34 | Pass white text? False Contrast ratio: 7.88 | Pass black text? True
+Contrast ratio: 2.34 | Pass white text? False Contrast ratio: 7.89 | Pass black text? True
+Contrast ratio: 2.32 | Pass white text? False Contrast ratio: 7.95 | Pass black text? True
+Contrast ratio: 2.31 | Pass white text? False Contrast ratio: 7.96 | Pass black text? True
+Contrast ratio: 2.31 | Pass white text? False Contrast ratio: 7.98 | Pass black text? True
+Contrast ratio: 2.29 | Pass white text? False Contrast ratio: 8.04 | Pass black text? True
+Contrast ratio: 2.29 | Pass white text? False Contrast ratio: 8.05 | Pass black text? True
+Contrast ratio: 2.28 | Pass white text? False Contrast ratio: 8.07 | Pass black text? True
+Contrast ratio: 2.27 | Pass white text? False Contrast ratio: 8.13 | Pass black text? True
+Contrast ratio: 2.26 | Pass white text? False Contrast ratio: 8.15 | Pass black text? True
+Contrast ratio: 2.26 | Pass white text? False Contrast ratio: 8.16 | Pass black text? True
+Contrast ratio: 2.24 | Pass white text? False Contrast ratio: 8.22 | Pass black text? True
+Contrast ratio: 2.24 | Pass white text? False Contrast ratio: 8.24 | Pass black text? True
+Contrast ratio: 2.23 | Pass white text? False Contrast ratio: 8.25 | Pass black text? True
+Contrast ratio: 2.21 | Pass white text? False Contrast ratio: 8.32 | Pass black text? True
+Contrast ratio: 2.21 | Pass white text? False Contrast ratio: 8.33 | Pass black text? True
+Contrast ratio: 2.19 | Pass white text? False Contrast ratio: 8.41 | Pass black text? True
+Contrast ratio: 2.19 | Pass white text? False Contrast ratio: 8.41 | Pass black text? True
+Contrast ratio: 2.19 | Pass white text? False Contrast ratio: 8.42 | Pass black text? True
+Contrast ratio: 2.17 | Pass white text? False Contrast ratio: 8.49 | Pass black text? True
+Contrast ratio: 2.17 | Pass white text? False Contrast ratio: 8.5 | Pass black text? True
+Contrast ratio: 2.16 | Pass white text? False Contrast ratio: 8.52 | Pass black text? True
+Contrast ratio: 2.15 | Pass white text? False Contrast ratio: 8.59 | Pass black text? True
+Contrast ratio: 2.14 | Pass white text? False Contrast ratio: 8.6 | Pass black text? True
+Contrast ratio: 2.14 | Pass white text? False Contrast ratio: 8.62 | Pass black text? True
+Contrast ratio: 2.12 | Pass white text? False Contrast ratio: 8.68 | Pass black text? True
+Contrast ratio: 2.12 | Pass white text? False Contrast ratio: 8.7 | Pass black text? True
+Contrast ratio: 2.12 | Pass white text? False Contrast ratio: 8.7 | Pass black text? True
+Contrast ratio: 2.1 | Pass white text? False Contrast ratio: 8.78 | Pass black text? True
+Contrast ratio: 2.09 | Pass white text? False Contrast ratio: 8.8 | Pass black text? True
+Contrast ratio: 2.1 | Pass white text? False Contrast ratio: 8.79 | Pass black text? True
+Contrast ratio: 2.07 | Pass white text? False Contrast ratio: 8.89 | Pass black text? True
+Contrast ratio: 2.07 | Pass white text? False Contrast ratio: 8.9 | Pass black text? True
+Contrast ratio: 2.07 | Pass white text? False Contrast ratio: 8.91 | Pass black text? True
+Contrast ratio: 2.05 | Pass white text? False Contrast ratio: 8.98 | Pass black text? True
+Contrast ratio: 2.05 | Pass white text? False Contrast ratio: 9.0 | Pass black text? True
+Contrast ratio: 2.04 | Pass white text? False Contrast ratio: 9.01 | Pass black text? True
+Contrast ratio: 2.02 | Pass white text? False Contrast ratio: 9.11 | Pass black text? True
+Contrast ratio: 2.02 | Pass white text? False Contrast ratio: 9.1 | Pass black text? True
+Contrast ratio: 2.02 | Pass white text? False Contrast ratio: 9.12 | Pass black text? True
+Contrast ratio: 2.0 | Pass white text? False Contrast ratio: 9.21 | Pass black text? True
+Contrast ratio: 2.0 | Pass white text? False Contrast ratio: 9.2 | Pass black text? True
+Contrast ratio: 2.0 | Pass white text? False Contrast ratio: 9.23 | Pass black text? True
+Contrast ratio: 1.98 | Pass white text? False Contrast ratio: 9.32 | Pass black text? True
+Contrast ratio: 1.98 | Pass white text? False Contrast ratio: 9.31 | Pass black text? True
+Contrast ratio: 1.97 | Pass white text? False Contrast ratio: 9.33 | Pass black text? True
+Contrast ratio: 1.96 | Pass white text? False Contrast ratio: 9.42 | Pass black text? True
+Contrast ratio: 1.96 | Pass white text? False Contrast ratio: 9.42 | Pass black text? True
+Contrast ratio: 1.95 | Pass white text? False Contrast ratio: 9.44 | Pass black text? True
+Contrast ratio: 1.93 | Pass white text? False Contrast ratio: 9.53 | Pass black text? True
+Contrast ratio: 1.93 | Pass white text? False Contrast ratio: 9.53 | Pass black text? True
+Contrast ratio: 1.93 | Pass white text? False Contrast ratio: 9.54 | Pass black text? True
+Contrast ratio: 1.91 | Pass white text? False Contrast ratio: 9.64 | Pass black text? True
+Contrast ratio: 1.91 | Pass white text? False Contrast ratio: 9.64 | Pass black text? True
+Contrast ratio: 1.91 | Pass white text? False Contrast ratio: 9.65 | Pass black text? True
+Contrast ratio: 1.89 | Pass white text? False Contrast ratio: 9.75 | Pass black text? True
+Contrast ratio: 1.89 | Pass white text? False Contrast ratio: 9.75 | Pass black text? True
+Contrast ratio: 1.89 | Pass white text? False Contrast ratio: 9.76 | Pass black text? True
+Contrast ratio: 1.88 | Pass white text? False Contrast ratio: 9.79 | Pass black text? True
+Contrast ratio: 1.87 | Pass white text? False Contrast ratio: 9.86 | Pass black text? True
+Contrast ratio: 1.87 | Pass white text? False Contrast ratio: 9.87 | Pass black text? True
+Contrast ratio: 1.86 | Pass white text? False Contrast ratio: 9.9 | Pass black text? True
+Contrast ratio: 1.85 | Pass white text? False Contrast ratio: 9.97 | Pass black text? True
+Contrast ratio: 1.84 | Pass white text? False Contrast ratio: 9.99 | Pass black text? True
+Contrast ratio: 1.84 | Pass white text? False Contrast ratio: 10.01 | Pass black text? True
+Contrast ratio: 1.83 | Pass white text? False Contrast ratio: 10.08 | Pass black text? True
+Contrast ratio: 1.82 | Pass white text? False Contrast ratio: 10.11 | Pass black text? True
+Contrast ratio: 1.82 | Pass white text? False Contrast ratio: 10.1 | Pass black text? True
+Contrast ratio: 1.81 | Pass white text? False Contrast ratio: 10.2 | Pass black text? True
+Contrast ratio: 1.8 | Pass white text? False Contrast ratio: 10.22 | Pass black text? True
+Contrast ratio: 1.8 | Pass white text? False Contrast ratio: 10.22 | Pass black text? True
+Contrast ratio: 1.79 | Pass white text? False Contrast ratio: 10.31 | Pass black text? True
+Contrast ratio: 1.78 | Pass white text? False Contrast ratio: 10.34 | Pass black text? True
+Contrast ratio: 1.78 | Pass white text? False Contrast ratio: 10.33 | Pass black text? True
+Contrast ratio: 1.77 | Pass white text? False Contrast ratio: 10.43 | Pass black text? True
+Contrast ratio: 1.77 | Pass white text? False Contrast ratio: 10.43 | Pass black text? True
+Contrast ratio: 1.76 | Pass white text? False Contrast ratio: 10.45 | Pass black text? True
+Contrast ratio: 1.75 | Pass white text? False Contrast ratio: 10.55 | Pass black text? True
+Contrast ratio: 1.75 | Pass white text? False Contrast ratio: 10.55 | Pass black text? True
+Contrast ratio: 1.74 | Pass white text? False Contrast ratio: 10.57 | Pass black text? True
+Contrast ratio: 1.73 | Pass white text? False Contrast ratio: 10.64 | Pass black text? True
+Contrast ratio: 1.73 | Pass white text? False Contrast ratio: 10.67 | Pass black text? True
+Contrast ratio: 1.72 | Pass white text? False Contrast ratio: 10.69 | Pass black text? True
+Contrast ratio: 1.71 | Pass white text? False Contrast ratio: 10.77 | Pass black text? True
+Contrast ratio: 1.71 | Pass white text? False Contrast ratio: 10.79 | Pass black text? True
+Contrast ratio: 1.71 | Pass white text? False Contrast ratio: 10.79 | Pass black text? True
+Contrast ratio: 1.69 | Pass white text? False Contrast ratio: 10.89 | Pass black text? True
+Contrast ratio: 1.69 | Pass white text? False Contrast ratio: 10.92 | Pass black text? True
+Contrast ratio: 1.69 | Pass white text? False Contrast ratio: 10.91 | Pass black text? True
+Contrast ratio: 1.67 | Pass white text? False Contrast ratio: 11.01 | Pass black text? True
+Contrast ratio: 1.67 | Pass white text? False Contrast ratio: 11.01 | Pass black text? True
+Contrast ratio: 1.67 | Pass white text? False Contrast ratio: 11.04 | Pass black text? True
+Contrast ratio: 1.66 | Pass white text? False Contrast ratio: 11.11 | Pass black text? True
+Contrast ratio: 1.65 | Pass white text? False Contrast ratio: 11.14 | Pass black text? True
+Contrast ratio: 1.65 | Pass white text? False Contrast ratio: 11.16 | Pass black text? True
+Contrast ratio: 1.64 | Pass white text? False Contrast ratio: 11.24 | Pass black text? True
+Contrast ratio: 1.64 | Pass white text? False Contrast ratio: 11.27 | Pass black text? True
+Contrast ratio: 1.64 | Pass white text? False Contrast ratio: 11.26 | Pass black text? True
+Contrast ratio: 1.62 | Pass white text? False Contrast ratio: 11.37 | Pass black text? True
+Contrast ratio: 1.62 | Pass white text? False Contrast ratio: 11.37 | Pass black text? True
+Contrast ratio: 1.62 | Pass white text? False Contrast ratio: 11.39 | Pass black text? True
+Contrast ratio: 1.6 | Pass white text? False Contrast ratio: 11.5 | Pass black text? True
+Contrast ratio: 1.6 | Pass white text? False Contrast ratio: 11.5 | Pass black text? True
+Contrast ratio: 1.59 | Pass white text? False Contrast ratio: 11.6 | Pass black text? True
+Contrast ratio: 1.59 | Pass white text? False Contrast ratio: 11.6 | Pass black text? True
+Contrast ratio: 1.59 | Pass white text? False Contrast ratio: 11.62 | Pass black text? True
+Contrast ratio: 1.57 | Pass white text? False Contrast ratio: 11.71 | Pass black text? True
+Contrast ratio: 1.57 | Pass white text? False Contrast ratio: 11.73 | Pass black text? True
+Contrast ratio: 1.57 | Pass white text? False Contrast ratio: 11.75 | Pass black text? True
+Contrast ratio: 1.56 | Pass white text? False Contrast ratio: 11.84 | Pass black text? True
+Contrast ratio: 1.55 | Pass white text? False Contrast ratio: 11.86 | Pass black text? True
+Contrast ratio: 1.55 | Pass white text? False Contrast ratio: 11.86 | Pass black text? True
+Contrast ratio: 1.54 | Pass white text? False Contrast ratio: 11.97 | Pass black text? True
+Contrast ratio: 1.54 | Pass white text? False Contrast ratio: 11.97 | Pass black text? True
+Contrast ratio: 1.54 | Pass white text? False Contrast ratio: 11.99 | Pass black text? True
+Contrast ratio: 1.53 | Pass white text? False Contrast ratio: 12.07 | Pass black text? True
+Contrast ratio: 1.52 | Pass white text? False Contrast ratio: 12.1 | Pass black text? True
+Contrast ratio: 1.52 | Pass white text? False Contrast ratio: 12.1 | Pass black text? True
+Contrast ratio: 1.51 | Pass white text? False Contrast ratio: 12.21 | Pass black text? True
+Contrast ratio: 1.51 | Pass white text? False Contrast ratio: 12.24 | Pass black text? True
+Contrast ratio: 1.51 | Pass white text? False Contrast ratio: 12.24 | Pass black text? True
+Contrast ratio: 1.49 | Pass white text? False Contrast ratio: 12.35 | Pass black text? True
+Contrast ratio: 1.49 | Pass white text? False Contrast ratio: 12.34 | Pass black text? True
+Contrast ratio: 1.49 | Pass white text? False Contrast ratio: 12.37 | Pass black text? True
+Contrast ratio: 1.48 | Pass white text? False Contrast ratio: 12.46 | Pass black text? True
+Contrast ratio: 1.48 | Pass white text? False Contrast ratio: 12.48 | Pass black text? True
+Contrast ratio: 1.48 | Pass white text? False Contrast ratio: 12.48 | Pass black text? True
+Contrast ratio: 1.46 | Pass white text? False Contrast ratio: 12.59 | Pass black text? True
+Contrast ratio: 1.46 | Pass white text? False Contrast ratio: 12.59 | Pass black text? True
+Contrast ratio: 1.46 | Pass white text? False Contrast ratio: 12.62 | Pass black text? True
+Contrast ratio: 1.45 | Pass white text? False Contrast ratio: 12.71 | Pass black text? True
+Contrast ratio: 1.45 | Pass white text? False Contrast ratio: 12.73 | Pass black text? True
+Contrast ratio: 1.45 | Pass white text? False Contrast ratio: 12.73 | Pass black text? True
+Contrast ratio: 1.43 | Pass white text? False Contrast ratio: 12.85 | Pass black text? True
+Contrast ratio: 1.43 | Pass white text? False Contrast ratio: 12.84 | Pass black text? True
+Contrast ratio: 1.43 | Pass white text? False Contrast ratio: 12.87 | Pass black text? True
+Contrast ratio: 1.42 | Pass white text? False Contrast ratio: 12.99 | Pass black text? True
+Contrast ratio: 1.42 | Pass white text? False Contrast ratio: 12.99 | Pass black text? True
+Contrast ratio: 1.41 | Pass white text? False Contrast ratio: 13.11 | Pass black text? True
+Contrast ratio: 1.41 | Pass white text? False Contrast ratio: 13.1 | Pass black text? True
+Contrast ratio: 1.4 | Pass white text? False Contrast ratio: 13.13 | Pass black text? True
+Contrast ratio: 1.39 | Pass white text? False Contrast ratio: 13.22 | Pass black text? True
+Contrast ratio: 1.39 | Pass white text? False Contrast ratio: 13.25 | Pass black text? True
+Contrast ratio: 1.39 | Pass white text? False Contrast ratio: 13.24 | Pass black text? True
+Contrast ratio: 1.38 | Pass white text? False Contrast ratio: 13.37 | Pass black text? True
+Contrast ratio: 1.38 | Pass white text? False Contrast ratio: 13.36 | Pass black text? True
+Contrast ratio: 1.38 | Pass white text? False Contrast ratio: 13.39 | Pass black text? True
+Contrast ratio: 1.37 | Pass white text? False Contrast ratio: 13.48 | Pass black text? True
+Contrast ratio: 1.36 | Pass white text? False Contrast ratio: 13.51 | Pass black text? True
+Contrast ratio: 1.36 | Pass white text? False Contrast ratio: 13.51 | Pass black text? True
+Contrast ratio: 1.35 | Pass white text? False Contrast ratio: 13.63 | Pass black text? True
+Contrast ratio: 1.35 | Pass white text? False Contrast ratio: 13.63 | Pass black text? True
+Contrast ratio: 1.35 | Pass white text? False Contrast ratio: 13.66 | Pass black text? True
+Contrast ratio: 1.34 | Pass white text? False Contrast ratio: 13.75 | Pass black text? True
+Contrast ratio: 1.34 | Pass white text? False Contrast ratio: 13.78 | Pass black text? True
+Contrast ratio: 1.34 | Pass white text? False Contrast ratio: 13.77 | Pass black text? True</code></pre>
+</div>
+</div>
+<div id="af5ce6f6" class="cell" data-execution_count="34">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> to_grayscale(rgb_image):</span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>    <span class="co"># rgb_image: (H,W,3) floats 0..1</span></span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>    r, g, b <span class="op">=</span> rgb_image[...,<span class="dv">0</span>], rgb_image[...,<span class="dv">1</span>], rgb_image[...,<span class="dv">2</span>]</span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>    gray <span class="op">=</span> <span class="fl">0.2126</span><span class="op">*</span>r <span class="op">+</span> <span class="fl">0.7152</span><span class="op">*</span>g <span class="op">+</span> <span class="fl">0.0722</span><span class="op">*</span>b</span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> np.dstack([gray, gray, gray])</span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Simple linear transform approximations for protanopia/deuteranopia</span></span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a><span class="co"># (Brettel/Vienot inspired, crude for teaching purposes)</span></span>
+<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> simulate_deuteranopia(rgb):</span>
+<span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a>    M <span class="op">=</span> np.array([[<span class="fl">0.625</span>, <span class="fl">0.375</span>, <span class="fl">0.000</span>],</span>
+<span id="cb13-14"><a href="#cb13-14" aria-hidden="true" tabindex="-1"></a>                  [<span class="fl">0.700</span>, <span class="fl">0.300</span>, <span class="fl">0.000</span>],</span>
+<span id="cb13-15"><a href="#cb13-15" aria-hidden="true" tabindex="-1"></a>                  [<span class="fl">0.000</span>, <span class="fl">0.300</span>, <span class="fl">0.700</span>]])</span>
+<span id="cb13-16"><a href="#cb13-16" aria-hidden="true" tabindex="-1"></a>    shp <span class="op">=</span> rgb.shape</span>
+<span id="cb13-17"><a href="#cb13-17" aria-hidden="true" tabindex="-1"></a>    flat <span class="op">=</span> rgb.reshape(<span class="op">-</span><span class="dv">1</span>,<span class="dv">3</span>)</span>
+<span id="cb13-18"><a href="#cb13-18" aria-hidden="true" tabindex="-1"></a>    sim <span class="op">=</span> flat <span class="op">@</span> M.T</span>
+<span id="cb13-19"><a href="#cb13-19" aria-hidden="true" tabindex="-1"></a>    sim <span class="op">=</span> np.clip(sim, <span class="dv">0</span>, <span class="dv">1</span>)</span>
+<span id="cb13-20"><a href="#cb13-20" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> sim.reshape(shp)</span>
+<span id="cb13-21"><a href="#cb13-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-22"><a href="#cb13-22" aria-hidden="true" tabindex="-1"></a><span class="co"># Demo: color bar</span></span>
+<span id="cb13-23"><a href="#cb13-23" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.linspace(<span class="dv">0</span>,<span class="dv">1</span>,<span class="dv">256</span>)</span>
+<span id="cb13-24"><a href="#cb13-24" aria-hidden="true" tabindex="-1"></a>bar <span class="op">=</span> np.tile(x, (<span class="dv">30</span>,<span class="dv">1</span>))</span>
+<span id="cb13-25"><a href="#cb13-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-26"><a href="#cb13-26" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> hex_to_rgb01(h):</span>
+<span id="cb13-27"><a href="#cb13-27" aria-hidden="true" tabindex="-1"></a>    h <span class="op">=</span> h.lstrip(<span class="st">'#'</span>)</span>
+<span id="cb13-28"><a href="#cb13-28" aria-hidden="true" tabindex="-1"></a>    r, g, b <span class="op">=</span> (<span class="bu">int</span>(h[i:i<span class="op">+</span><span class="dv">2</span>], <span class="dv">16</span>) <span class="cf">for</span> i <span class="kw">in</span> (<span class="dv">0</span>, <span class="dv">2</span>, <span class="dv">4</span>))</span>
+<span id="cb13-29"><a href="#cb13-29" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> (r<span class="op">/</span><span class="fl">255.0</span>, g<span class="op">/</span><span class="fl">255.0</span>, b<span class="op">/</span><span class="fl">255.0</span>)</span>
+<span id="cb13-30"><a href="#cb13-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-31"><a href="#cb13-31" aria-hidden="true" tabindex="-1"></a><span class="cf">try</span>:</span>
+<span id="cb13-32"><a href="#cb13-32" aria-hidden="true" tabindex="-1"></a>    hex_colors <span class="op">=</span> cc.palette[<span class="st">'CET_CBD2'</span>]   <span class="co"># list of '#RRGGBB'</span></span>
+<span id="cb13-33"><a href="#cb13-33" aria-hidden="true" tabindex="-1"></a>    rgb <span class="op">=</span> np.array([hex_to_rgb01(hx) <span class="cf">for</span> hx <span class="kw">in</span> hex_colors])  <span class="co"># shape (K, 3) in 0..1</span></span>
+<span id="cb13-34"><a href="#cb13-34" aria-hidden="true" tabindex="-1"></a><span class="cf">except</span> <span class="pp">KeyError</span>:</span>
+<span id="cb13-35"><a href="#cb13-35" aria-hidden="true" tabindex="-1"></a>    <span class="co"># B) Sample from continuous colormap</span></span>
+<span id="cb13-36"><a href="#cb13-36" aria-hidden="true" tabindex="-1"></a>    cmap <span class="op">=</span> cc.cm[<span class="st">'CET_CBD2'</span>]              <span class="co"># returns RGBA in 0..1</span></span>
+<span id="cb13-37"><a href="#cb13-37" aria-hidden="true" tabindex="-1"></a>    N <span class="op">=</span> <span class="dv">10</span>                                <span class="co"># how many swatches do you want?</span></span>
+<span id="cb13-38"><a href="#cb13-38" aria-hidden="true" tabindex="-1"></a>    rgb <span class="op">=</span> np.array([cmap(t)[:<span class="dv">3</span>] <span class="cf">for</span> t <span class="kw">in</span> np.linspace(<span class="dv">0</span>, <span class="dv">1</span>, N)])</span>
+<span id="cb13-39"><a href="#cb13-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-40"><a href="#cb13-40" aria-hidden="true" tabindex="-1"></a>img <span class="op">=</span> np.vstack([np.tile(c,(<span class="dv">20</span>,<span class="dv">256</span>,<span class="dv">1</span>)) <span class="cf">for</span> c <span class="kw">in</span> rgb])</span>
+<span id="cb13-41"><a href="#cb13-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-42"><a href="#cb13-42" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>,<span class="dv">3</span>))</span>
+<span id="cb13-43"><a href="#cb13-43" aria-hidden="true" tabindex="-1"></a>plt.imshow(img, aspect<span class="op">=</span><span class="st">'auto'</span>)</span>
+<span id="cb13-44"><a href="#cb13-44" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Original (categorical swatches)"</span>)</span>
+<span id="cb13-45"><a href="#cb13-45" aria-hidden="true" tabindex="-1"></a>plt.axis(<span class="st">'off'</span>)</span>
+<span id="cb13-46"><a href="#cb13-46" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb13-47"><a href="#cb13-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-48"><a href="#cb13-48" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>,<span class="dv">3</span>))</span>
+<span id="cb13-49"><a href="#cb13-49" aria-hidden="true" tabindex="-1"></a>plt.imshow(to_grayscale(img), aspect<span class="op">=</span><span class="st">'auto'</span>)</span>
+<span id="cb13-50"><a href="#cb13-50" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Grayscale check (lightness ordering)"</span>)</span>
+<span id="cb13-51"><a href="#cb13-51" aria-hidden="true" tabindex="-1"></a>plt.axis(<span class="st">'off'</span>)</span>
+<span id="cb13-52"><a href="#cb13-52" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb13-53"><a href="#cb13-53" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-54"><a href="#cb13-54" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>,<span class="dv">3</span>))</span>
+<span id="cb13-55"><a href="#cb13-55" aria-hidden="true" tabindex="-1"></a>plt.imshow(simulate_deuteranopia(img), aspect<span class="op">=</span><span class="st">'auto'</span>)</span>
+<span id="cb13-56"><a href="#cb13-56" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Rough deuteranopia simulation (teaching)"</span>)</span>
+<span id="cb13-57"><a href="#cb13-57" aria-hidden="true" tabindex="-1"></a>plt.axis(<span class="st">'off'</span>)</span>
+<span id="cb13-58"><a href="#cb13-58" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="week9_homework_files/figure-html/cell-13-output-1.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="week9_homework_files/figure-html/cell-13-output-2.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="week9_homework_files/figure-html/cell-13-output-3.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="sumbission" class="level2">
+<h2 class="anchored" data-anchor-id="sumbission">(5) Sumbission</h2>
+<p><strong>Task:</strong> Submit .ipynb and .html with quarto.</p>
+<section id="complete" class="level5">
+<h5 class="anchored" data-anchor-id="complete"><strong>Complete</strong></h5>
+</section>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
